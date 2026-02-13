@@ -1,5 +1,6 @@
 <script setup>
 import { Link } from '@inertiajs/vue3';
+import LoginSlider from '@/Components/LoginSlider.vue';
 </script>
 
 <template>
@@ -33,10 +34,9 @@ import { Link } from '@inertiajs/vue3';
         </div>
 
         <!-- RIGHT PANEL (IMAGE) -->
-        <div
-            class="hidden lg:block lg:w-2/3 bg-cover bg-center"
-            style="background-image: url('/images/login-bg.png');"
-        ></div>
+       <div class="hidden lg:block lg:w-2/3 h-screen">
+            <LoginSlider />
+        </div>
 
     </div>
 </template>
