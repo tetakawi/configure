@@ -51,11 +51,11 @@ defineExpose({ focus: () => input.value?.focus() });
         >
             <EyeIcon
                 v-if="!showPassword"
-                class="h-5 w-5"
+                class="h-4 w-4"
             />
             <EyeSlashIcon
                 v-else
-                class="h-5 w-5"
+                class="h-4 w-4"
             />
         </button>
     </div>
