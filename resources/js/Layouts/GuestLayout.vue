@@ -35,7 +35,7 @@ import { Link } from '@inertiajs/vue3';
         <!-- RIGHT PANEL (IMAGE) -->
         <div
             class="hidden lg:block lg:w-2/3 bg-cover bg-center"
-            style="background-image: url('/images/login-bg.jpg');"
+            style="background-image: url('/images/login-bg.png');"
         ></div>
 
     </div>
