@@ -15,6 +15,12 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                tetakawi: {
+                    primary: '#0071ce',
+                    primaryDark: '#005fae',
+                },
+            },
         },
     },
 
